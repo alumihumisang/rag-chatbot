@@ -35,24 +35,27 @@
    wikipedia-api
    requests
 ### 使用說明
-**運行聊天機器人** 運行以下命令啟動機器人：
+1. **運行聊天機器人** 運行以下命令啟動機器人：
    ```bash
    python RAG_llama3.py
 
-**交互操作** 啟動後，輸入您的問題。機器人會檢索相關資料，並生成答案。例如：
+2. **交互操作** 啟動後，輸入您的問題。機器人會檢索相關資料，並生成答案。例如：
    ```bash
    你：台北101的高度是多少？
    機器人：台北101的高度為 508 公尺，是曾經的世界第一高樓。
 
-**結束聊天**
+3. **結束聊天**
    ```bash
    輸入 exit 或 quit 即可結束程序。
+
+---
+
 ### 注意事項
-**User-Agent 設置** 請在程式碼中的 user_agent 字段填入專案的實際資料。例如：
+1. **User-Agent 設置** 請在程式碼中的 user_agent 字段填入專案的實際資料。例如：
    ```bash
    user_agent = 'rag-chatbot/1.0 (https://github.com/your-username/rag-chatbot; email@example.com)'
-**API Token** 如果您使用的是私有模型或需要特定的 API Token，請確保正確配置 API。
-**Wikipedia** 使用規範 請務必遵守 Wikipedia 的 User-Agent 政策。
+2. **API Token** 如果您使用的是私有模型或需要特定的 API Token，請確保正確配置 API。
+3. **Wikipedia** 使用規範 請務必遵守 Wikipedia 的 User-Agent 政策。
 
 
 
